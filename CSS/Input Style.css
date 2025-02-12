@@ -1,0 +1,21 @@
+html{
+  background-color: gold;
+}
+h1{
+ text-align: center;
+color: white;
+text-shadow:
+2.5px 2.5px red,
+10px 10px green,
+12.5px 12.5px blue,
+font-style: italic;
+font-size: 30px;
+animation: glow 1s ease-in-out infinite alternate;
+} 
+@-webkit-keyframes glow {
+to {
+text-shadow: 0 0 30px yellow, 0 0 40px green, 0 0 50px blue, 0 0 60px violet;
+}
+}
+
+
